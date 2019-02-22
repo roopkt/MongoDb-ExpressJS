@@ -4,7 +4,7 @@ import * as mongoose from "mongoose";
 import * as bodyParser from "body-parser";
 
 const app = express();
-const PORT = 3420;
+const PORT = 3400;
 
 // mongoose connection
 (mongoose as any).Promise = global.Promise;
